@@ -1,0 +1,8 @@
+*** Woocommerce G2A Importer ***
+
+2022-12-XX - version 1.0.1
+* [Fixed] Category Import.
+* [Added] Gallery Image.
+
+2021-04-01 - version 1.0.0
+* Initial Release

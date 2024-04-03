@@ -1,0 +1,148 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .ced-g2a-g2a-products-table-wrapper,
+.ced-g2a-configuration-settings-table-wrapper{
+  background-color: #ffffff;
+  padding: 10px 0;
+  width: 99%;
+}
+ .ced-g2a-g2a-products-table,
+ .ced-g2a-configuration-settings-table {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+.ced-g2a-g2a-products-table thead tr th,
+.ced-g2a-configuration-settings-table thead tr th {
+  border-bottom: 1px solid #dddddd;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.ced-g2a-g2a-products-table tr:nth-child(2n) ,
+.ced-g2a-configuration-settings-table tr:nth-child(2n){
+  background-color: #f8f8f8;
+}
+.ced-g2a-g2a-products-table tr td,
+.ced-g2a-configuration-settings-table tr td {
+  padding: 10px 3px;
+  font-size: 15px;
+}
+.ced-g2a-pagination-wrapper .ced_g2a_nextPage ,
+.ced-g2a-pagination-wrapper .ced_g2a_previousPage,
+.ced-g2a-save-configuration-button.ced-g2a-button {
+  background-color: #0073aa;
+  border: 0 none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 5px 15px;
+  text-shadow: none;
+}
+.ced-g2a-settings-wrapper .ced-g2a-bulk-actions {
+  margin: 10px 10px 20px;
+}
+.ced-g2a-settings-wrapper .ced-g2a-bulk-actions select {
+  margin-bottom: 15px;
+  margin-right: 10px;
+  width: 160px;
+  height: 36px;
+}
+.ced-g2a-settings-wrapper .ced-g2a-bulk-actions .ced_g2a_bulk_import_submit {
+  border: 1px solid #dddddd;
+  box-shadow: none;
+  height: auto;
+  padding: 3px 14px;
+}
+.ced-g2a-heading-wrapper.ced-g2a-product-heading-wrapper h2,
+.ced-g2a-heading-wrapper.ced-g2a-configuration-heading-wrapper h2 {
+  font-size: 22px;
+}
+.ced_g2a_nextPage {
+  float: right;
+}
+.ced-g2a-save-configuration-button.ced-g2a-button {
+	margin-left: 0;
+}
+.ced-g2a-configuration-settings-table tr td{
+	padding: 10px!important;
+}
+.ced-g2a-configuration-settings-table{
+	text-align: left;
+}
+.ced-g2a-configuration-settings-table .ced-g2a-text-field{
+	height: 36px;
+  width: 100%;
+}
+
+
+/*Loader CSS*/
+.ced-g2a-loader
+{
+  display: none;
+}
+#ced-g2a-loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+#ced-g2a-loader img {
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+#ced_g2a_manage_order_wrapper
+{
+  overflow: hidden;
+}
+#ced_g2a_manage_order_container
+{
+  width: 100%;
+  margin: auto;
+  clear: both
+}
+.ced_g2a_manage_order_button
+{
+  width: 28%;
+  float: left;
+  margin: 2%;
+  text-align: center;
+}
+#ced_g2a_manage_order_container input
+{
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  border:1px solid #eeeeee;
+  background-color: #0085ba;
+  color:#ffffff;
+}
+#ced_g2a_manage_order_container input:hover
+{
+  width: 100%;
+  opacity: 0.8;
+}
+.ced_g2a_email_key_button {
+    width: 28%;
+    float: left;
+    margin: 2%;
+    text-align: center;
+}
+.ced_g2a-pagination{
+    display: block ruby;
+    margin-top:15px;
+}
